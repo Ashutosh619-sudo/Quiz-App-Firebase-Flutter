@@ -36,7 +36,7 @@ class QuestionPage extends StatelessWidget {
               child: Container(
                 height: MediaQuery.of(context).size.height*0.35,
                 decoration: BoxDecoration(
-                  color: Colors.purple[600],
+                  color: Color.fromRGBO(159, 89, 215, 1),
                   borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20.0),bottomRight: Radius.circular(20.0))
                 ),
               ),
@@ -69,7 +69,7 @@ class QuestionPage extends StatelessWidget {
                   CircularProgressIndicator(
                   value:(index+1)/questions.length,
                   strokeWidth: 6.0,
-                  valueColor: AlwaysStoppedAnimation<Color>(Colors.purple[600])),
+                  valueColor: AlwaysStoppedAnimation<Color>(Color.fromRGBO(159, 89, 215, 1))),
                 ]),
             ),
             ]),

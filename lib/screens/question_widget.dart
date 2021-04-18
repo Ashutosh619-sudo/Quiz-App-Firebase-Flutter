@@ -72,7 +72,7 @@ class QuestionWidget extends HookWidget {
             child:Text("Question ${currentQuestionNumber}/${numberOfQuestions}",
             style: TextStyle(
               fontSize: 17.0,
-              color: Colors.purple[700],
+              color: Color.fromRGBO(159, 89, 215, 1),
               fontWeight: FontWeight.w500
             ),) ,),
         ),
