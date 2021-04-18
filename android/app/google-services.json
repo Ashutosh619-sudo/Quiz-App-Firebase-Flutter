@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "992080695415",
+    "project_id": "findmind-intern",
+    "storage_bucket": "findmind-intern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992080695415:android:03d02a5c7c47fda950b672",
+        "android_client_info": {
+          "package_name": "com.example.intern_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992080695415-uufds2j96m67tjana6fr579erdpmft7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intern_task",
+            "certificate_hash": "1a0091398d0446200b3a852dfb56f97a7fe766b2"
+          }
+        },
+        {
+          "client_id": "992080695415-9sp140p5gejun8espotg805p0rkick3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgh27ahMSpmbaWOdYSfwHaXsPwLhr3eBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992080695415-9sp140p5gejun8espotg805p0rkick3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
