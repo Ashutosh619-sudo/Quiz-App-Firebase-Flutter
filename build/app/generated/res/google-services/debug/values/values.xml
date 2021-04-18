@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">992080695415-9sp140p5gejun8espotg805p0rkick3s.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">992080695415</string>
+    <string name="google_api_key" translatable="false">AIzaSyBgh27ahMSpmbaWOdYSfwHaXsPwLhr3eBE</string>
+    <string name="google_app_id" translatable="false">1:992080695415:android:03d02a5c7c47fda950b672</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBgh27ahMSpmbaWOdYSfwHaXsPwLhr3eBE</string>
+    <string name="google_storage_bucket" translatable="false">findmind-intern.appspot.com</string>
+    <string name="project_id" translatable="false">findmind-intern</string>
+</resources>
