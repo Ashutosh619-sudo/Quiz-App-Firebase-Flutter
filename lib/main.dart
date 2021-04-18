@@ -7,7 +7,7 @@ import 'package:intern_task/controller/quiz/quiz_state.dart';
 import 'package:intern_task/model/question_model.dart';
 import 'package:intern_task/repository/quiz_repo.dart';
 import 'package:intern_task/screens/question_page.dart';
-import 'package:intern_task/screens/quiz_result.dart';
+import 'package:intern_task/screens/result.dart';
 import 'package:intern_task/widget/circular_button.dart';
 
 void main() async{
@@ -83,7 +83,7 @@ class StartQuiz extends HookWidget {
 
     final quizState = useProvider(quizControllerProvider.state);
     return quizState.status == QuizStatus.complete
-        ? QuizResults(state: quizState, questions: questions)
+        ? ResultPage(state: quizState, questions: questions)
         : QuestionPage(
             pageController: pageController,
             state: quizState,

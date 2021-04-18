@@ -20,7 +20,7 @@ class CustomButton extends StatelessWidget {
         height: 50.0,
         width: double.infinity,
         decoration: BoxDecoration(
-          color: Colors.pink[100],
+          color: Color.fromRGBO(159, 89, 215, 1),
           boxShadow: boxShadow,
           borderRadius: BorderRadius.circular(25.0),
         ),
@@ -29,7 +29,7 @@ class CustomButton extends StatelessWidget {
           title,
           style: const TextStyle(
             fontSize: 18.0,
-            fontWeight: FontWeight.w600,
+            fontWeight: FontWeight.w400,
           ),
         ),
       ),
