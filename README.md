@@ -1,6 +1,6 @@
 # intern_task
 
-A new Flutter project.
+A quiz app created as an internship challenge with flutter and firebase.
 
 ## Getting Started
 
